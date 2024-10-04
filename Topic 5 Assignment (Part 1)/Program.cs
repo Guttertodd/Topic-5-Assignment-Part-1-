@@ -4,23 +4,48 @@
     {
         static void Main(string[] args)
         {
-            string planet;
-           
-            double weight;
-            Console.WriteLine("Please enter your curent earth weight:");
-            double.TryParse(Console.ReadLine), out weight)
-            Console.WriteLine("I have information for the following plannets:");
-            Console.WriteLine("1. Venus    2. Mars    3. Jupiter");
-            Console.WriteLine("4. Saturn   5. Uranus  6. Neptune");
-            Console.WriteLine("Which planet are you visiting?");
-            planet = Console.ReadLine().ToLower();
+            //string planet;
 
-            if (planet == "1" || planet == "venus")
-            {
-                Console.WriteLine("Your weight would be " + weight * 0.79); 
+            //double weight;
+            //Console.WriteLine("Please enter your curent earth weight:");
+            //weight = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("I have information for the following plannets:");
+            //Console.WriteLine("1. Venus    2. Mars    3. Jupiter");
+            //Console.WriteLine("4. Saturn   5. Uranus  6. Neptune");
+            //Console.WriteLine("Which planet are you visiting?");
+            //planet = Console.ReadLine().ToLower();
+
+            //if (planet == "1" || planet == "venus")
+            //{
+            //    Console.WriteLine("Your weight would be " + weight * 0.79);
+            //}
+            //if (planet == "2" || planet == "mars")
+            //{
+            //    Console.WriteLine("Your weight would be " + weight * 0.39);
+            //}
+            //if (planet == "3" || planet == "jupiter")
+            //{
+            //    Console.WriteLine("Your weight would be " + weight * 2.65);
+            //}
+            //if (planet == "4"|| planet == "saturn")
+            //{
+            //    Console.WriteLine("Your weight would be " + weight * 1.17);
+            //}
+            //if (planet == "5"| planet == "uranus")
+            //{
+            //    Console.WriteLine("Your weight would be " + weight * 1.05);
+            //}
+            //if (planet == "6"| planet == "neptune")
+            //{
+            //    Console.WriteLine("Your weight would be " + weight * 1.23);
+
+
+
+
             }
+        }
     }
-}
 
 
-     
+
+}     
