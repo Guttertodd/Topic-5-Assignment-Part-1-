@@ -41,11 +41,66 @@
 
 
 
+            //int secretNumber;
+            //string number;
+            //secretNumber = 7;
 
-            }
+            //Console.WriteLine("Pick a number from 1-10:");
+            //number = Console.ReadLine().ToLower();
+
+            //if (number == "1")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+            //if (number == "2")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+            //if (number == "3")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+            //if (number == "4")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+            //if (number == "5")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+            //if (number == "6")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+            //if (number == "7") 
+            //{
+            //    Console.WriteLine("Correct!!! You guessed the secret number!");
+            //}
+            //if (number == "8")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+            //if (number == "9")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+            //if (number == "10")
+            //{
+            //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
+            //}
+
+            
+            Console.WriteLine("Question 1:");
+            Console.WriteLine("How many people died in WW1?");
+            Console.WriteLine("A. 40 Million");
+            Console.WriteLine("B. 50 Million");
+            Console.WriteLine("C. 35 Million");
+            Console.WriteLine("D. 25 Million"); 
+
+        }
         }
     }
 
 
 
-}     
+    
