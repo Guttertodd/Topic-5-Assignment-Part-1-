@@ -1,4 +1,6 @@
-﻿namespace Topic_5_Assignment__Part_1_
+﻿using System.ComponentModel.Design;
+
+namespace Topic_5_Assignment__Part_1_
 {
     internal class Program
     {
@@ -89,18 +91,25 @@
             //    Console.WriteLine("Incorrect... the secret number was " + secretNumber);
             //}
 
-            
+            string answerOne;
             Console.WriteLine("Question 1:");
             Console.WriteLine("How many people died in WW1?");
             Console.WriteLine("A. 40 Million");
             Console.WriteLine("B. 50 Million");
             Console.WriteLine("C. 35 Million");
-            Console.WriteLine("D. 25 Million"); 
+            Console.WriteLine("D. 25 Million");
+            answerOne = Console.ReadLine().ToUpper();
+            if (answerOne == "A") 
+            {
+                Console.WriteLine("Correct!");
+            }
 
-        }
+            else
+            {
+                Console.WriteLine("Incorrect, the answer was A!");
+            }
+
         }
     }
-
-
-
-    
+}
+         
