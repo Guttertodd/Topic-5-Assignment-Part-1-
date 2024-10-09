@@ -99,15 +99,58 @@ namespace Topic_5_Assignment__Part_1_
             Console.WriteLine("C. 35 Million");
             Console.WriteLine("D. 25 Million");
             answerOne = Console.ReadLine().ToUpper();
-            if (answerOne == "A") 
+            if (answerOne == "A" || answerOne == "40 million")
             {
                 Console.WriteLine("Correct!");
             }
 
             else
             {
-                Console.WriteLine("Incorrect, the answer was A!");
+                Console.WriteLine("Incorrect, the correct answer was A!");
             }
+
+            string answerTwo;
+            Console.WriteLine("Question 2:");
+            Console.WriteLine("Soccer is the most played sport across the world!");
+            Console.WriteLine("True");
+            Console.WriteLine("False");
+            answerTwo = Console.ReadLine().ToUpper();
+            if (answerTwo == "TRUE" || answerTwo == "T")
+            {
+                Console.WriteLine("Correct!");
+            }
+
+            else
+            {
+                Console.WriteLine("Incorrect, the correct answer was true!");
+            }
+
+            string answerThree;
+            Console.WriteLine("What is 12 * (18/3)");
+            answerThree = Console.ReadLine();
+            if (answerThree == "72")
+            {
+                Console.WriteLine("Correct! Seems like someone is good at math!");
+            }
+
+            else
+            {
+                Console.WriteLine("Incorrect, the correct answer was 72!");
+            }
+
+            string answerFour;
+            Console.WriteLine("In which country is the eiffel tower located?");
+            answerFour = Console.ReadLine().ToLower();
+            if (answerFour == "france")
+            {
+                Console.WriteLine("Correct!");
+            }
+
+            else
+            {
+                Console.WriteLine("Incorrect, the correct answer was France!");
+            }
+
 
         }
     }
